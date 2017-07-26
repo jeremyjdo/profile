@@ -50,7 +50,9 @@ a:hover{
 #sidebar li {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 30px;
+}
+text-big {
+  font-size: 30px;
 }
 #page-content {
   margin-left: 150px;
