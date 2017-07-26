@@ -105,13 +105,13 @@ a:hover{
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 675px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 450px;
   }
 }
 @media (max-width: 540px) {
@@ -119,7 +119,11 @@ a:hover{
   .container {
     width: 300px;
   }
+  #sidebar {
+    width: 60px;
+  }
 }
+
 #surf td{
   padding: 15px;
 }
