@@ -74,14 +74,30 @@ a:hover{
 .text-center {
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
 .img-circle {
   border-radius: 50%;
 }
 .img-small {
-  width: 150px;
+  width: 100px;
 }
-.img-normal {
-  width: 200px;
+.product {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  flex-wrap: wrap;
+}
+.product-body {
+  flex: 1 1 auto;
+}
+.product-image {
+  border-radius: 4px;
+  margin-right: 20px;
+  width: 175px;
 }
 .btn-blue {
   background-color: #1774F0;
@@ -125,9 +141,5 @@ a:hover{
   #page-content {
   margin-left: 60px;
 }
-}
-
-#surf td{
-  padding: 15px;
 }
 
